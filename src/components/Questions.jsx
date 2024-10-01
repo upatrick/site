@@ -11,24 +11,20 @@ const Questions = () => {
   const questions = [
     "Qual é o custo médio de uma campanha de tráfego pago?",
     "Quanto tempo leva para ver resultados com o tráfego pago?",
-    "Como você garante resultados consistentes com o tráfego pago?",
     "Como você mede o sucesso das campanhas de tráfego pago?",
     "O tráfego pago é adequado para todos os tipos de negócio?",
     "Quem pagará os anúncios?",
-    "Trabalham com todos os nichos?",
-    "Vocês só trabalham com anúncios?",
+    "Trabalha com todos os nichos?",
   ];
 
   // Respostas específicas para cada pergunta
   const answers = [
     "O investimento ideal é um valor que possa ser mantido no médio prazo, até que as campanhas peguem escala. O custo varia dependendo de fatores como tamanho do mercado-alvo e tipo de anúncio, mas eu trabalho com cada cliente para desenvolver campanhas que se encaixem em seu orçamento.",
     "Os resultados podem variar, mas muitos clientes começam a ver um aumento no tráfego e nas conversões dentro de algumas semanas após o lançamento das campanhas.",
-    "O tráfego pago não faz milagres e precisa ser linkado a um conjunto de fatores. o que garanto é que irei desenvolver estratégias altamente direcionadas e otimizadas para cada cliente, visando alcançar suas metas específicas.",
     "Eu uso métricas como taxas de cliques, taxas de conversão, retorno sobre o investimento e custo por aquisição para medir o sucesso das campanhas.",
     "Sim, o tráfego pago pode ser adaptado para uma ampla variedade de negócios, desde pequenas empresas locais até grandes empresas globais.",
     "Os pagamentos são feitos pelo cliente, via cartão ou boleto, diretamente para a plataforma de anúncios.",
-    "Quase todos. Não trabalhamos com afiliados, dropshipping, PLR e nichos black.",
-    "O nosso time é capacitado para oferecer todos os serviços necessários para a veiculação de anúncios, que inclui: Social, sites, landing page, copy.",
+    "Quase todos. Não trabalho com afiliados, dropshipping, PLR e nichos black.",
   ];
 
   return (
