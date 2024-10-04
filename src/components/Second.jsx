@@ -16,7 +16,11 @@ function Second() {
     <div className="flex flex-col items-center justify-center p-5 mt-10 ">
       <div className="max-w-7xl w-full gap-6 flex flex-col lg:flex-row lg:justify-evenly lg:gap-6">
         {/* Card 1 */}
-        <div className="bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs">
+        <div
+          className={`bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs transform transition-all duration-700 ease-in-out ${
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        >
           <img
             src="/icons/work.svg"
             alt="Imersão no seu negócio"
@@ -30,7 +34,11 @@ function Second() {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs">
+        <div
+          className={`bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs transform transition-all duration-700 ease-in-out delay-100 ${
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        >
           <img
             src="/icons/people.svg"
             alt="Campanhas Estratégicas"
@@ -45,7 +53,11 @@ function Second() {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs">
+        <div
+          className={`bg-white p-6 rounded-lg shadow-md text-center lg:max-w-xs transform transition-all duration-700 ease-in-out delay-200 ${
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        >
           <img
             src="/icons/chart.svg"
             alt="Relatórios Inteligentes"
